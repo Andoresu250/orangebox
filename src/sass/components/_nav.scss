@@ -1,0 +1,36 @@
+header a img{
+    float:left; 
+    display:inline;        
+    padding-right: 175px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;        
+}
+
+nav li {
+    float: left;     
+}
+
+nav li a {
+    margin-top: 5px; 
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 17px;
+    padding-right: 17px;
+    text-decoration: none;    
+    border-right: double #78839f;
+    border-right-width: 0.5px;  
+    text-transform: uppercase;  
+}
+
+.hide-last{
+    border-right: white;
+}
+
+nav li a:hover {
+    color: #EB6D4C;
+}
