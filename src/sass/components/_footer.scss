@@ -16,6 +16,7 @@ footer  ul{
 }
 
 footer ul li {
+    font-family: 'brandon';
     border-right: solid 1px #FFF;
     display: inline;
     float: left;   
@@ -32,11 +33,14 @@ footer ul li:last-child{
 footer li a{
    // font-family: 'brandon';
     color: #FFF;
-    text-decoration: none;
-    text-transform: uppercase;
+    text-decoration: none;    
 }
 
-
+.icons{
+    font-family: 'icons';
+    color: red;
+    padding-top: 30px;    
+}
 
 footer li:last-child{
     border-right: none;
@@ -49,5 +53,35 @@ footer li a:hover {
 
 footer p{
     padding-left:17px;
-    color: #84a2b5;
+    color: #b6b6b6;
+}
+
+footer .container .left{
+    display: inline;
+    float: left;    
+}
+
+footer .container .right{
+    display: inline;
+    float: right;    
+}
+
+footer .container .icons a{
+    text-decoration: none;
+}
+
+footer .container .icons a span{    
+    color: #292e39;
+    background: #b6b6b6;
+    padding: 8px;
+    width:100px; /** fix width ***/
+    text-align: center; 
+    font-size: 17px;
+    display: inline;
+    border-radius: 50%;
+    line-height: 50px;  /** for vertical center - if needed **/
+}
+
+footer .container .icons a:hover span{        
+    background: #eb6d4c;    
 }

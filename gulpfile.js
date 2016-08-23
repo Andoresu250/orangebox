@@ -5,7 +5,7 @@ var imagemin = require('gulp-imagemin');
 var cache = require('gulp-cache');
 
 gulp.task('clean',function(){
-    return del(['dist/**/*']);
+    return del(['dist/css/**/*','dist/images/**/*']);
 });
 
 gulp.task('build',['clean','sass','images','fonts'],function(){
