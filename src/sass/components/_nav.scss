@@ -1,8 +1,3 @@
-header a img{
-    float:left; 
-    display:inline;        
-    padding-right: 175px;
-}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -10,25 +5,35 @@ nav ul {
     overflow: hidden;        
 }
 
-nav li {
-    float: left;     
+header .container ul{
+    margin: 0;
+    padding: 0;
 }
 
-nav li a {
-    margin-top: 5px; 
-    display: block;
-    color: white;
-    text-align: center;
-    padding-left: 17px;
-    padding-right: 17px;
-    text-decoration: none;    
-    border-right: double #78839f;
-    border-right-width: 0.5px;  
-    text-transform: uppercase;  
+header .container ul li {
+    border-right: solid 1px #FFF;
+    display: inline;
+    float: left;   
+    list-style-type: none;
+    padding: 5px 17px; 
+    
 }
 
-.hide-last{
-    border-right: white;
+header .container ul li:last-child{
+    border-right: none;
+}
+
+header .container li a{
+    color: #FFF;
+    //font-family: 'brandon';
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+nav li:last-child{
+    border-right: none;
 }
 
 nav li a:hover {

@@ -8,7 +8,7 @@ gulp.task('clean',function(){
     return del(['dist/**/*']);
 });
 
-gulp.task('build',['clean','sass','images'],function(){
+gulp.task('build',['clean','sass','images','fonts'],function(){
 });
 
 gulp.task('sass', function () {
@@ -24,7 +24,7 @@ gulp.task('images', function(){
 });
 
 gulp.task('fonts', function() {
-    return gulp.src('src/fonts/*')
+    return gulp.src('src/fonts/**/*.*')
     .pipe(gulp.dest('dist/fonts/'));
 });
 

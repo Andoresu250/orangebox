@@ -1,9 +1,16 @@
 header {
     background-color: #2a2e39 ;    
     height: 114px;
-    margin-top: 0 !important;      
-    padding-top: 0 !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+header .container .left{
+    display: inline;
+    float: left;
+    padding-top: 30px;
+}
+
+header .container .right{
+    display: inline;
+    float: right;
+    padding-top: 30px;
 }

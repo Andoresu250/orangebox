@@ -2,20 +2,22 @@
 .center-img{
 	display: block;	
     margin-left: auto;
-    margin-right: auto;      	
+    margin-right: auto;     
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{	
-	position: relative;
-	margin-left: auto;
-    margin-right: auto;
+	width: 1000px;
+	margin: 0 auto;
 }
 
 .spotlight{
 	z-index: 100;
   	position: absolute;
   	left: 150px;
-  	top: 86px;
+  	top: 150px;
 	background-color: #EB6D4C;
 	color: white;		
 	height: 140px;

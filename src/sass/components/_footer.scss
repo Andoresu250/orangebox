@@ -1,0 +1,53 @@
+footer{
+    background-color: #2a2e39 ;    
+    height: 114px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;        
+}
+
+footer  ul{
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    border-right: solid 1px #FFF;
+    display: inline;
+    float: left;   
+    list-style-type: none;
+    padding: 0px 17px; 
+    margin-top: 30px;
+    
+}
+
+footer ul li:last-child{
+    border-right: none;
+}
+
+footer li a{
+   // font-family: 'brandon';
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+footer li:last-child{
+    border-right: none;
+}
+
+footer li a:hover {
+    color: #EB6D4C;
+    text-decoration: underline;
+}
+
+footer p{
+    padding-left:17px;
+    color: #84a2b5;
+}
