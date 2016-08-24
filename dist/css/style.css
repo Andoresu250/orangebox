@@ -495,6 +495,9 @@ footer .container .icons a:hover span {
   font-family: 'icons';
   src: url("../fonts/icomoon.woff") format("woff"); }
 
+@font-face {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
 .container {
   width: 1000px;
   margin: 0 auto; }
@@ -528,6 +531,7 @@ footer .container .icons a:hover span {
   text-transform: uppercase; }
 
 .services {
+  font-family: 'Open Sans Condensed';
   margin: 0;
   padding: 0;
   background-color: #ebebe8; }
