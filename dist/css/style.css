@@ -441,7 +441,7 @@ footer ul li:last-child {
   border-right: none; }
 
 footer li a {
-  color: #FFF;
+  color: #EB6D4C;
   text-decoration: none; }
 
 .icons {
@@ -453,7 +453,6 @@ footer li:last-child {
   border-right: none; }
 
 footer li a:hover {
-  color: #EB6D4C;
   text-decoration: underline; }
 
 footer p {
