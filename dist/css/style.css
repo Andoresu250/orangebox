@@ -604,7 +604,8 @@ footer .container .icons a:hover span {
 
 .portafolio * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Open Sans Condensed'; }
 
 .portafolio h2 {
   display: none; }
